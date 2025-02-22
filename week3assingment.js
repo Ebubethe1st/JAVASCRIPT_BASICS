@@ -1,7 +1,3 @@
-function calculateArea(length, width) {ret
-    
-}
-undefined
 function calculateArea(Length, Width) {return Length*Width
     
 }
@@ -11,18 +7,6 @@ VM245:1 100
 undefined
 console.log(calculateArea(5,3))
 VM355:1 15
-undefined
-function greet(name){return'Good Afternoon' $(name)!';}
-VM507:1 Uncaught SyntaxError: Unexpected identifier '$'
-function greet(name){return"Good Afternoon"(name)!';}
-VM520:1 Uncaught SyntaxError: Unexpected token '!'
-function greet(name){return'Good Afternoon, ${name}!';}
-undefined
-console.log(greet("Chizurum"))
-VM650:1 Good Afternoon, ${name}!
-undefined
-console.log(greet("Chizurum"));
-VM741:1 Good Afternoon, ${name}!
 undefined
 function greet(name) {
   return "Good Afternoon, " + name;
